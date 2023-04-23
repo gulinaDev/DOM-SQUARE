@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+.square{
+    width: 20px;
+    height: 20px;
+    background: deepskyblue;
+    margin: 2px;
+    transition: 1s ease;
+    box-shadow: 0 0  3px #000000;
+}
+
+.square:hover{
+transition-duration: 0s;
+}
